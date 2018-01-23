@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {HighlightDirective} from 'ng-highlight';
 
 @Component({
   selector: 'app-root',

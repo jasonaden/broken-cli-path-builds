@@ -6,7 +6,7 @@
   "apps": [
     {
       "root": "src",
-      "outDir": "dist",
+      "outDir": "dist/app",
       "assets": [
         "assets",
         "favicon.ico"
@@ -27,6 +27,14 @@
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
       }
+    },
+    {
+      "root": "lib",
+      "outDir": "dist/lib",
+      "main": "public_api.ts",
+      "tsconfig": "tsconfig.lib.json",
+      "prefix": "hl",
+      "scripts": []
     }
   ],
   "e2e": {
